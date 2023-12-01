@@ -1,0 +1,99 @@
+* {
+    margin: 2px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    min-width: 1200px;
+    width: 100%;
+} */
+/* nav starts  */
+.nav-section {
+    border: 3px solid green;
+    outline: 4px solid black;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    width: 100%;
+    background-color: rgb(232, 149, 134);
+}
+
+.nav-list {
+    display: table-row;
+    gap: 10px;
+    list-style: none;
+}
+
+.nav-h2 {
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+@media screen and (min-width: 550px){
+   .nav-section {
+    display: flex;
+   }
+
+   .nav-list {
+    display: flex;
+    padding-top: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+   }
+
+   .nav-compliment {
+    padding-top: 20px;
+    font-size: 20px;
+    padding-right: 10px;
+   }
+}
+/* nav ends  */
+
+.main-div {
+    background: linear-gradient(rgba(166, 81, 32, 0.5), rgba(0,0,0,0.6)), url(./pexels-wolrider-yurtseven-18978261.jpg);
+    height: 600px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    object-fit: cover;
+    text-shadow: 1px 1px 2.5px plum;
+}
+
+.card {
+    border: 2px;
+    border-style: none;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding: 60px;
+    background-color: purple;
+    box-shadow: 10px 10px 5px lightcoral;
+    flex-wrap: wrap;
+}
+
+.main-card {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 670px){
+    .main-card {
+        display: flex;
+    }
+
+    .main-div {
+        background-image: url(./pexels-charlotte-may-5946990.jpg);
+        background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    object-fit: cover;
+    }
+}
